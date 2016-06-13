@@ -1,0 +1,28 @@
+﻿Build started 18/03/2013 07:15:48.
+Project "C:\Documents and Settings\All Users\Application Data\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.1\C\src\particles_mine\simpleGL_vs2010.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Win32/Debug/simpleGL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+AddCudaCompileDeps:
+Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+AddCudaCompilePropsDeps:
+Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+CudaBuild:
+Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/win32/Debug//simpleGL.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\lib\Win32" /LIBPATH:../../common/lib/Win32 /LIBPATH:../../../shared/lib/Win32 cudart.lib freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32/Debug/simpleGL.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\All Users\Application Data\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.1\C\bin\win32\Debug\simpleGL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../bin/win32/Debug/simpleGL.lib" /MACHINE:X86 Win32/Debug/simpleGL_kernel.cu.obj
+  Win32/Debug/rendercheck_gl.obj
+  Win32/Debug/simpleGL.obj
+  LINK : ../../bin/win32/Debug//simpleGL.exe not found or not built by the last incremental link; performing full link
+  simpleGL_vs2010.vcxproj -> C:\Documents and Settings\All Users\Application Data\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.1\C\src\particles_mine\../../bin/win32/Debug/simpleGL.exe
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../bin/win32/Debug//simpleGL.exe;#1" /manifest Win32/Debug/simpleGL.exe.intermediate.manifest
+FinalizeBuildStatus:
+  Deleting file "Win32/Debug/simpleGL.unsuccessfulbuild".
+  Touching "Win32/Debug/simpleGL.lastbuildstate".
+Done Building Project "C:\Documents and Settings\All Users\Application Data\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.1\C\src\particles_mine\simpleGL_vs2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.75

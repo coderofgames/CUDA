@@ -1,0 +1,52 @@
+﻿Build started 18/03/2013 06:16:52.
+Project "C:\Documents and Settings\All Users\Application Data\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.1\C\src\simpleGL\simpleGL_vs2010.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Win32/Debug/simpleGL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+AddCudaCompileDeps:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /I./ /I../../common/inc /I../../../shared/inc /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\include" /I. /FIcuda_runtime.h /c "C:\Documents and Settings\All Users\Application Data\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.1\C\src\simpleGL\simpleGL_kernel.cu" 
+AddCudaCompilePropsDeps:
+Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+CudaBuild:
+  Compiling CUDA source file simpleGL_kernel.cu...
+  cmd.exe /C "C:\Documents and Settings\dave\Local Settings\Temp\dc3d7ae9ef9c421b86235c4075dc4df6.cmd"
+  "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files\Microsoft Visual Studio 10.0\VC\bin" -I"./" -I"../../common/inc" -I"../../../shared/inc" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\include"  -G0  --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MTd " -o "Win32/Debug/simpleGL_kernel.cu.obj" "C:\Documents and Settings\All Users\Application Data\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.1\C\src\simpleGL\simpleGL_kernel.cu"
+  
+  C:\Documents and Settings\All Users\Application Data\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.1\C\src\simpleGL>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files\Microsoft Visual Studio 10.0\VC\bin" -I"./" -I"../../common/inc" -I"../../../shared/inc" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\include"  -G0  --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MTd " -o "Win32/Debug/simpleGL_kernel.cu.obj" "C:\Documents and Settings\All Users\Application Data\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.1\C\src\simpleGL\simpleGL_kernel.cu" 
+  simpleGL_kernel.cu
+  tmpxft_00001348_00000000-3_simpleGL_kernel.compute_10.cudafe1.gpu
+  tmpxft_00001348_00000000-7_simpleGL_kernel.compute_10.cudafe2.gpu
+  simpleGL_kernel.cu
+  tmpxft_00001348_00000000-0_simpleGL_kernel.compute_20.cudafe1.gpu
+  tmpxft_00001348_00000000-11_simpleGL_kernel.compute_20.cudafe2.gpu
+  simpleGL_kernel.cu
+  simpleGL_kernel.cu
+  tmpxft_00001348_00000000-3_simpleGL_kernel.compute_10.cudafe1.cpp
+  tmpxft_00001348_00000000-20_simpleGL_kernel.compute_10.ii
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./ /I../../common/inc /I../../../shared/inc /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32/Debug/" /Fd"Win32/Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\common\src\rendercheck_gl.cpp simpleGL.cpp
+  simpleGL.cpp
+c:\documents and settings\all users\application data\nvidia corporation\nvidia gpu computing sdk 4.1\c\common\inc\rendercheck_gl.h(59): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+  Note: including windows.h
+  Note: including math.h
+  Note: including assert.h
+  Note: including time.h
+c:\documents and settings\all users\application data\nvidia corporation\nvidia gpu computing sdk 4.1\c\src\simplegl\simplegl.cpp(931): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+  rendercheck_gl.cpp
+  Generating Code...
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/win32/Debug//simpleGL.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\lib\Win32" /LIBPATH:../../common/lib/Win32 /LIBPATH:../../../shared/lib/Win32 cudart.lib freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32/Debug/simpleGL.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\All Users\Application Data\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.1\C\bin\win32\Debug\simpleGL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../bin/win32/Debug/simpleGL.lib" /MACHINE:X86 Win32/Debug/simpleGL_kernel.cu.obj
+  Win32/Debug/rendercheck_gl.obj
+  Win32/Debug/simpleGL.obj
+  LINK : ../../bin/win32/Debug//simpleGL.exe not found or not built by the last incremental link; performing full link
+  simpleGL_vs2010.vcxproj -> C:\Documents and Settings\All Users\Application Data\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.1\C\src\simpleGL\../../bin/win32/Debug/simpleGL.exe
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../bin/win32/Debug//simpleGL.exe;#1" /manifest Win32/Debug/simpleGL.exe.intermediate.manifest
+FinalizeBuildStatus:
+  Deleting file "Win32/Debug/simpleGL.unsuccessfulbuild".
+  Touching "Win32/Debug/simpleGL.lastbuildstate".
+Done Building Project "C:\Documents and Settings\All Users\Application Data\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.1\C\src\simpleGL\simpleGL_vs2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:29.26

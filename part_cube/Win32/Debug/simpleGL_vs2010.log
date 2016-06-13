@@ -1,0 +1,107 @@
+﻿Build started 18/03/2013 07:51:24.
+Project "C:\Documents and Settings\All Users\Application Data\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.1\C\src\part_cube\simpleGL_vs2010.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Win32/Debug/simpleGL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+AddCudaCompileDeps:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /I./ /I../../common/inc /I../../../shared/inc /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\include" /I. /FIcuda_runtime.h /c "C:\Documents and Settings\All Users\Application Data\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.1\C\src\part_cube\simpleGL_kernel.cu" 
+AddCudaCompilePropsDeps:
+Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+CudaBuild:
+  Compiling CUDA source file simpleGL_kernel.cu...
+  cmd.exe /C "C:\Documents and Settings\dave\Local Settings\Temp\5a64cfb4aced4da4ba73998ac39c4b8a.cmd"
+  "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files\Microsoft Visual Studio 10.0\VC\bin" -I"./" -I"../../common/inc" -I"../../../shared/inc" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\include"  -G0  --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MTd " -o "Win32/Debug/simpleGL_kernel.cu.obj" "C:\Documents and Settings\All Users\Application Data\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.1\C\src\part_cube\simpleGL_kernel.cu"
+  
+  C:\Documents and Settings\All Users\Application Data\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.1\C\src\part_cube>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files\Microsoft Visual Studio 10.0\VC\bin" -I"./" -I"../../common/inc" -I"../../../shared/inc" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\include"  -G0  --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MTd " -o "Win32/Debug/simpleGL_kernel.cu.obj" "C:\Documents and Settings\All Users\Application Data\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.1\C\src\part_cube\simpleGL_kernel.cu" 
+  simpleGL_kernel.cu
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(42): warning : variable "freq" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(73): warning : variable "freq" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(76): warning : variable "angle_rad" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(77): warning : variable "radius" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(198): warning : variable "constant" was set but never used
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(149): warning : variable "freq" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(152): warning : variable "angle_rad" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(153): warning : variable "radius" was declared but never referenced
+  
+  tmpxft_00001694_00000000-3_simpleGL_kernel.compute_10.cudafe1.gpu
+  tmpxft_00001694_00000000-7_simpleGL_kernel.compute_10.cudafe2.gpu
+  simpleGL_kernel.cu
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(42): warning : variable "freq" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(73): warning : variable "freq" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(76): warning : variable "angle_rad" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(77): warning : variable "radius" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(198): warning : variable "constant" was set but never used
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(149): warning : variable "freq" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(152): warning : variable "angle_rad" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(153): warning : variable "radius" was declared but never referenced
+  
+  tmpxft_00001694_00000000-0_simpleGL_kernel.compute_20.cudafe1.gpu
+  tmpxft_00001694_00000000-11_simpleGL_kernel.compute_20.cudafe2.gpu
+  simpleGL_kernel.cu
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(42): warning : variable "freq" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(73): warning : variable "freq" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(76): warning : variable "angle_rad" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(77): warning : variable "radius" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(198): warning : variable "constant" was set but never used
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(149): warning : variable "freq" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(152): warning : variable "angle_rad" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(153): warning : variable "radius" was declared but never referenced
+  
+ptxas C : /DOCUME~1/dave/LOCALS~1/Temp/tmpxft_00001694_00000000-4_simpleGL_kernel.compute_10.ptx, line 503; warning : Double is not supported. Demoting to float
+  simpleGL_kernel.cu
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(42): warning : variable "freq" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(73): warning : variable "freq" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(76): warning : variable "angle_rad" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(77): warning : variable "radius" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(198): warning : variable "constant" was set but never used
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(149): warning : variable "freq" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(152): warning : variable "angle_rad" was declared but never referenced
+  
+C:/Documents and Settings/All Users/Application Data/NVIDIA Corporation/NVIDIA GPU Computing SDK 4.1/C/src/part_cube/simpleGL_kernel.cu(153): warning : variable "radius" was declared but never referenced
+  
+  tmpxft_00001694_00000000-3_simpleGL_kernel.compute_10.cudafe1.cpp
+  tmpxft_00001694_00000000-20_simpleGL_kernel.compute_10.ii
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/win32/Debug//simpleGL.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\lib\Win32" /LIBPATH:../../common/lib/Win32 /LIBPATH:../../../shared/lib/Win32 cudart.lib freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32/Debug/simpleGL.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\All Users\Application Data\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.1\C\bin\win32\Debug\simpleGL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../bin/win32/Debug/simpleGL.lib" /MACHINE:X86 Win32/Debug/simpleGL_kernel.cu.obj
+  Win32/Debug/rendercheck_gl.obj
+  Win32/Debug/simpleGL.obj
+  LINK : ../../bin/win32/Debug//simpleGL.exe not found or not built by the last incremental link; performing full link
+  simpleGL_vs2010.vcxproj -> C:\Documents and Settings\All Users\Application Data\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.1\C\src\part_cube\../../bin/win32/Debug/simpleGL.exe
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../bin/win32/Debug//simpleGL.exe;#1" /manifest Win32/Debug/simpleGL.exe.intermediate.manifest
+FinalizeBuildStatus:
+  Deleting file "Win32/Debug/simpleGL.unsuccessfulbuild".
+  Touching "Win32/Debug/simpleGL.lastbuildstate".
+Done Building Project "C:\Documents and Settings\All Users\Application Data\NVIDIA Corporation\NVIDIA GPU Computing SDK 4.1\C\src\part_cube\simpleGL_vs2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.42
